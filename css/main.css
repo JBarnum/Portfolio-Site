@@ -1,27 +1,22 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #747704;
     font-weight: 300;
     background-color: #EDEEEF;
 }
+
 p {
     font-size: 20px;
 }
 
-.text-muted {
-    color: #BCBBBB;
+.text-muted, .modal-title {
+    color: #333333;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
-.text-thin {
-    font-weight: 100;
-}
-
-.description {
-    color: red;
-}
-
-.header, .work {
-    display: flex;
+.text-thin, .text-uppercase {
+    color: black;
 }
 
 .title-super {
